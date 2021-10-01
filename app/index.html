@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+<meta charset="UTF-8">
+<title>Orientación a objetos</title>
+</head>
+<body>
+<h1>Crear nueva cuenta</h1>
+<form action="cuentaNueva.php" method="post">
+    <label for="nombre">Nombre del titular de la cuenta: </label>
+    <input name="nombre"><br>
+    <label for="saldo">Saldo inicial de la cuenta: </label>
+    <input name="saldo" id="saldo" type="number"><br>
+    <label for="tipo">Tipo de cuenta: </label>
+    <select name="tipo">
+        <option value="ca">Caja de ahorro</option>
+        <option value="cc">Cuenta Corriente</option>
+    </select><br>
+    <input type="submit" value="Crear la cuenta">
+</form>
+</body>
+</html>
+
