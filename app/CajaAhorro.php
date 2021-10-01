@@ -15,6 +15,7 @@ class CajaAhorro extends Cuenta {
     }
 
     public function extraer($monto) {
+        return "HOLA";
         if ($monto > $this->topeExtraccion) {
             return "Error, tope de extracción excedido";
         }
